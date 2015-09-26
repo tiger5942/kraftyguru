@@ -1,5 +1,4 @@
 kraftyguru.github.io
-
 # www.kraftyguru.com
 
 
