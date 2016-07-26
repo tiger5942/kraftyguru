@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<script>
-      window.uetq = window.uetq || []; 
-      window.uetq.push
-      ({ 'ec':'button', 'ea':'click button', 'el':'Buy from amazon.com!', 'ev':'1' }); 
-</script>
-
-<button onclick>
-  window.uetq = window.uetq || []; 
-  window.uetq.push
-  ({ 'ec':'Contact', 'ea':'submit', 'el':'contact us form', 'ev':'' }); 
-</button>
-
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title> kraftyguru Contact </title>
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+        
+        <!--bing UET-->
+        <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5317460"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5317460&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+        
     </head>
     <body>
     	<div id="wrap">
@@ -59,6 +51,13 @@
                                     <input type="button" id="contact-clear" value="clear"/>
                                 </fieldset>
                             </form>
+                            
+                            <button onclick>
+                              window.uetq = window.uetq || []; 
+                              window.uetq.push
+                              ({ 'ec':'POST', 'ea':'submit', }); 
+                            </button>
+                            
                             <script language="JavaScript">
                             	var frmvalidator  = new Validator("contactform");
                             	frmvalidator.addValidation("name","req","Please provide your name"); 
@@ -97,7 +96,7 @@
 							 </p>
 						</div>
 					</div>
-					<div id="footer_column2">
+					<div id="footer_column2">n
 						<h2>Share with Others</h2>
 						<div class="footer_text">
 							<div class="foot_pad">
