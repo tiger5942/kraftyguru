@@ -4,7 +4,8 @@ kraftyguru.github.io
 
 I am creating a website for my wife 
 This page is to show off her talents in sewing 
-I’m not sure if we will be selling any of these products 
+I’m not sure if we will be selling any of the products or when I will be adding them 
+Sofar I have just used this page for testing to see how different things work 
 
 
 Info about this project  
